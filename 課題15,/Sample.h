@@ -11,6 +11,6 @@ class SampleClass {
 
 public:
 	void Input();
-	void Plus();
+	virtual void Plus();
 	void Disp();
 };

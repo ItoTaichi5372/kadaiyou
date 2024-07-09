@@ -1,4 +1,4 @@
-#include"Sample.h"
+#include"Sub.h"
 
 int main()
 {

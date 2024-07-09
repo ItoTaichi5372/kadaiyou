@@ -1,7 +1,9 @@
 #pragma once
+#include "Sample.h"
 
-class Sub :public Sample
+class Sub : public SampleClass
 {
 public:
-	void Minus();
+    void Minus(); 
+
 };
