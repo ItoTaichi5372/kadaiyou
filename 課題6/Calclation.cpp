@@ -3,7 +3,8 @@
 
 void Calclation::SetA(float a)
 {
-	//足し算の方をやってセットAに入れる
+	c = a + b;
+	//計算式が合ってるのかわからない
 }
 
 void Calclation::SetB(float b)
@@ -14,4 +15,6 @@ void Calclation::SetB(float b)
 void Calclation::Disp()
 {
 	//両方をcoutで出す
+
+	//考えても出てこなかった
 }

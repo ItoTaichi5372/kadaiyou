@@ -2,9 +2,11 @@
 
 int main()
 {
-	SampleClass a;
+	SampleClass *a;
 
-	a.Input();
-	a.Plus();
-	a.Disp();
+	a->Input();
+	a->Plus();
+	a->Disp();
+
+	delete a;
 }
