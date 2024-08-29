@@ -1,10 +1,13 @@
 #include"Circle.h"
 
-Circle(float PI) : 3.14(PI)
+Circle::Circle()
+{
+	PI = 3.14f;
+}
 //ここのコンストラクタ何入れればいいかわからない
 //現状はPIを3.14として初期化するものを入れたつもり
 
-void Circle::Menseki(float r)
+float Circle::Menseki(float r)
 {
 	return r * r * PI;
 }

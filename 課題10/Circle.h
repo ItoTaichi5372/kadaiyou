@@ -4,5 +4,5 @@ class Circle
 
 public:
 	Circle();
-	float Menseki(float r);
+	float Menseki(float m);
 };
